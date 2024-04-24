@@ -13,7 +13,7 @@ const Counter = () => {
   return (
     <div className="counterContainer">
       <h1>Counter App</h1>
-      <p>counter : {counter}</p>
+      <p>Counter : {counter}</p>
       <button onClick={incrementHandler}>Increment</button>
       <button onClick={decrementHandler}>Decrement</button>
     </div>
